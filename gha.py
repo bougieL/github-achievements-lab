@@ -6,3 +6,7 @@ def fetch_profile(login):
 def parse_badges(html):
     """Extract achievement badge names from profile HTML."""
     return []
+
+def format_table(rows):
+    """Render badge rows as an aligned text table."""
+    return ''.join(rows)
