@@ -10,3 +10,7 @@ def parse_badges(html):
 def format_table(rows):
     """Render badge rows as an aligned text table."""
     return ''.join(rows)
+
+def main(argv=None):
+    argv = argv or []
+    return 0
